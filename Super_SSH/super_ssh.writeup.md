@@ -1,4 +1,4 @@
-# [The Beginner's Guide to the picoGym] : Obedient Cat
+# [The Beginner's Guide to the picoGym] : Super SSH
 
 ## Challenge
 ![Second challenge: Using a Secure Shell (SSH) is going to be pretty important. Additional details will be available after launching your challenge instance.](images/super.ssh_challenge.png)

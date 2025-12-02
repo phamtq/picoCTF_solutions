@@ -1,4 +1,4 @@
-# [The Beginner's Guide to the picoGym] : Warmed Up
+# [The Beginner's Guide to the picoGym] : Obedient Cat
 
 ## Challenge
 ![5th challenge: What is 0x3D (base 16) in decimal (base 10)?](images/warmed.up_challenge.png)

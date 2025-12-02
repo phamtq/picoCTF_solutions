@@ -1,4 +1,4 @@
-# [The Beginner's Guide to the picoGym] : Obedient Cat
+# [The Beginner's Guide to the picoGym] : what's a net cat?
 
 ## Challenge
 ![3rd challenge: Using netcat (nc) is going to be pretty important. Can you connect to fickle-tempest.picoctf.net at port 65495 to get the flag?](images/whats.a.net.cat_challenge.png)
