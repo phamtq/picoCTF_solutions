@@ -1,25 +1,27 @@
-# [The Beginner's Guide to the picoGym] : Obedient Cat
+# [The Beginner's Guide to the picoGym] : 2warm
 
 ## Challenge
-![5th challenge: What is 0x3D (base 16) in decimal (base 10)?](images/warmed.up_challenge.png)
+![6th challenge: Can you convert the number 42 (base 10) to binary (base 2)?](images/2warm_challenge.png)
 
 ## Status
 
 ![Status Image](images/slayed.gif)
 
 ## Approach
-Now there's an easy way to convert it using a website or program but another way that requires a bit more brainpower is to use math. To convert the hex value of `0x3D` to a decimal number (base 10) count the number of characters after the `0x`, in this case 2. 
+Here's another one dealing with numbers of different bases but this time we're converting a decimal number (base 10) to binary (base 2). To figure out this one, we can create the table below. Our goal is to use a combination of the numbers in the first row (64, 32, 16, etc...) such that when they're added together, it gives us our number, in this case `10`. 
 
-Then for each character, calculate `(X * 16^Y)`, where *X* is the numerical value of the first HEX character (0-9 and A-F being 0-15) and *Y* is it's position from right to left starting at zero. Then you add them all up.
+You put a number `1` in the second row under the number if we want to include it in our summation. So in this case we do the following:
 
-In this case it would be:
+| 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|---|---|---|---|---|---|---|
+|0|1|0|1|0|1|0|
 
-> (3 * 16^1) + (13 * 16^0) = 61
+Since `32`, `8`, and `2` give us our target number of `42`, then the binary representation is `0101010` (or extra/less zeros in front of the number depending on how big a memory space we're dealing with). 
 
-So the flag would be `picoCTF{61}`.
+Trying `picoCTF{0101010}` tells us that's incorrect so let's try `picoCTF{101010}`. And that did it!
 
 ## Solution
-1.  Convert the hexidecimal value to a decimal value.
+1.  Convert the decimal number (base 10) to binary (base 2) by setting up a binary table (seen above).
 
 ## Lessons
 None.
