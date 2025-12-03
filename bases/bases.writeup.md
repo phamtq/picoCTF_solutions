@@ -5,7 +5,7 @@
 
 ## Status
 
-![Status Image](images/pending.gif)
+![Status Image](images/slayed.gif)
 
 ## Approach
 I've dealt with encoding like this before but let's try and take this from the perspective of someone who hasn't encountered something like this. After all, this activity wouldn't be much fun if I just ran through the solutions and told you, "Git gud. Figure it out yourself!". 
