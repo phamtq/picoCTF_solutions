@@ -5,7 +5,7 @@
 
 ## Status
 
-![Status Image](images/pending.gif)
+![Status Image](images/slayed.gif)
 
 ## Approach
 This challenge is having us download a file named `warm` that appears to be a ELF binary as shown by running the following:
