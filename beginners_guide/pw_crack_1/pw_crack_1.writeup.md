@@ -4,7 +4,7 @@
 ![15th challenge: Can you crack the password to get the flag? Download the password checker here and you'll need the encrypted flag in the same directory too.](images/pw.crack.1_challenge.png)
 
 ## Status
-![Status Image](images/pending.gif)
+![Status Image](images/slayed.gif)
 
 ## Approach
 Again, we start by looking at the source code for the program before running it to ensure no shennanigians is occurring. It also gives us some insight into what we need to do. Loading up the source code (`level1.py`) in your favorite text editor or file output program, we get:
