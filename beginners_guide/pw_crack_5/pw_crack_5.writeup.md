@@ -1,7 +1,7 @@
 # [The Beginner's Guide to the picoGym] : PW Crack 5
 
 ## Challenge
-![19th challenge: Can you crack the password to get the flag? Download the password checker here and you'll need the encrypted flag and the hash in the same directory too. Here's a dictionary with all possible passwords based on the password conventions we've seen so far.](images/pw.crack.4_challenge.png)
+![19th challenge: Can you crack the password to get the flag? Download the password checker here and you'll need the encrypted flag and the hash in the same directory too. Here's a dictionary with all possible passwords based on the password conventions we've seen so far.](images/pw.crack.5_challenge.png)
 
 ## Status
 ![Status Image](images/slayed.gif)
