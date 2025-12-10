@@ -1,10 +1,10 @@
 # [The Beginner's Guide to the picoGym] : PW Crack 2
 
 ## Challenge
-![15th challenge: Can you crack the password to get the flag? Download the password checker here and you'll need the encrypted flag in the same directory too.](images/pw.crack.2_challenge.png)
+![16th challenge: Can you crack the password to get the flag? Download the password checker here and you'll need the encrypted flag in the same directory too.](images/pw.crack.2_challenge.png)
 
 ## Status
-![Status Image](images/pending.gif)
+![Status Image](images/slayed.gif)
 
 ## Approach
 Same approach as the previous (and next few) challenge. Looking at the source code (`level2.py`). Instead of a frank presentation of what needs to be entered into the user input like the previous challenge, now we have these `chr(0xZZ)` entries.
